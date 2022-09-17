@@ -1,5 +1,5 @@
 ---
-- hosts : all
+- myhosts : all
   become : yes
   tasks : 
     - name : i want to install webserver

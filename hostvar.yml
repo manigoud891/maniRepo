@@ -18,6 +18,6 @@
 
     - name : install tree
       yum : 
-        - name : tree
+          name : tree
           state : present
       when : myresult.stderr == ""

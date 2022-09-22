@@ -1,1 +1,1 @@
-mywebpackonredhat : openjdk-11-jre
+mywebpackonredhat : java-1.9.0-openjdk

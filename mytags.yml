@@ -1,15 +1,15 @@
 ---
-- hosts : 172.31.25.72
+- hosts : 172.31.28.234
   become : yes
   tasks : 
     - name : install tree
-      apt :
+      yum :
         name : tree
         state : present
       tags : mytree
 
     - name : install git
-      apt :
+      yum :
         name : git
         state : present
       tags : mygit

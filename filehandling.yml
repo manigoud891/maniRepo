@@ -7,3 +7,7 @@
       file :
        path : /home/ubuntu/myfolder
        state : directory
+    - name : install a tree
+      apt :
+        name : tree
+        state : present
